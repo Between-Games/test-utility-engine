@@ -1,0 +1,33 @@
+{
+  "name": "utility-engine",
+  "version": "0.0.0",
+  "description": "Upcoming details...",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "build": "npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-A-R-C/utility-engine.git"
+  },
+  "author": "S-A-R-C",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/S-A-R-C/utility-engine/issues"
+  },
+  "homepage": "https://github.com/S-A-R-C/utility-engine#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-preset-minify": "^0.4.3",
+    "chai": "^4.2.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "eslint": "^7.4.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.0.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
