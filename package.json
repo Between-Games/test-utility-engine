@@ -1,22 +1,23 @@
 {
-  "name": "utility-engine",
-  "version": "0.0.0",
+  "name": "@sarc-test/test-utility-engine",
+  "version": "0.1.0",
   "description": "Upcoming details...",
   "main": "build/index.js",
+  "files": ["build"],
   "scripts": {
     "test": "npx mocha",
     "build": "npx webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/S-A-R-C/utility-engine.git"
+    "url": "git+https://github.com/S-A-R-C/test-utility-engine.git"
   },
   "author": "S-A-R-C",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/S-A-R-C/utility-engine/issues"
+    "url": "https://github.com/S-A-R-C/test-utility-engine/issues"
   },
-  "homepage": "https://github.com/S-A-R-C/utility-engine#readme",
+  "homepage": "https://github.com/S-A-R-C/test-utility-engine#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
